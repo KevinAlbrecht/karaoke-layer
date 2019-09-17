@@ -1,0 +1,34 @@
+{
+	"name": "karaoke-layer",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KevinAlbrecht/karaoke-layer.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KevinAlbrecht/karaoke-layer/issues"
+	},
+	"homepage": "https://github.com/KevinAlbrecht/karaoke-layer#readme",
+	"devDependencies": {
+		"@webcomponents/webcomponentsjs": "^2.2.10",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^3.2.0",
+		"file-loader": "^4.2.0",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^8.0.0",
+		"style-loader": "^1.0.0",
+		"ts-loader": "^6.1.0",
+		"typescript": "^3.6.3",
+		"webpack": "^4.40.2",
+		"webpack-cli": "^3.3.8"
+	}
+}
